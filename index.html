@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>fitnes Website</title>
+</head>
+<body>
+   
+    <!-- <header>
+
+        <a href="#" class="logo">
+            <img src="logo.png" alt="">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#trainer">Trainer</a></li>
+            <li><a href="#review">Review</a></li>
+        </ul>
+
+    </header> -->
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul id="menuList">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#trainer">Trainer</a></li>
+            <li><a href="#review">Review</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="fto1.jpg" alt="">
+        </div> 
+
+
+           <div class="text">
+
+            <div class="home-text">
+                <h1>WE DONT JUST PRACTICE <BR>BUT CALM THE SOUL</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Optio dignissimos autem a. <br> Perferendis atque dignissimos  sunt ipsa, architecto voluptates ab <br> deleniti impedit velit ducimus dolore. Voluptatibus <br> commodi distinctio iure voluptate?</p>   
+            </div>
+            
+           </div>
+          
+    </section>
+
+    <div class="info">
+        <h2>Beginner Friendly</h2>
+        <h2>Solid Community</h2>
+        <h2>Free Consultation</h2>
+        <h2>Trainer Professional</h2>
+    </div>
+
+    <section class="body" id="about">
+   
+
+        <div class="container">
+
+            <div class="main">
+               <img src="fto2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="description">
+            <h1>Fitness is The Best Solution <br> For You</h1>
+
+            <div class="box">
+                <h2>Contact Us!</h2>
+                <span><i class='bx bx-map'></i>Ende, Anaraja</span>
+                <span><i class='bx bx-phone'></i>0812-3920-9242</span>
+                <span><i class='bx bx-envelope'></i>fathirlette01@gmail.com</span>
+            </div>
+
+        </div>
+
+        <div class="paragraph">
+            <p>Lorem ipsum dolor sit amet consectetur. Eu diam nulla netus in maecenas viverra. <br> Fermentum sed amet eget elementum volutpat amet augue. Lorem ipsum dolor sit amet <br> consectetur. Eu diam nulla netus in maecenas viverra. Fermentum <br> sed amet eget elementum volutpat amet augue. </p>
+        </div>
+
+        <div class="button">
+            <a href="#" class="btn">Contact Now</a>
+        </div>
+
+    </section>
+
+    <section class="about" id="trainer">
+
+        <div class="image">
+            <img src="image.jpg" alt="">
+        </div>
+
+        <div class="about-text">
+            <h1>Trainer Professional</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. <br> Eu diam nulla netus in maecenas viverra. Fermentum sed amet eget elementum volutpat amet augue. </p>
+        </div>
+
+    </section>
+    <section class="customers">
+        <div class="heading">
+            <h2>Our Customer's</h2>
+        </div>
+        <!-- container -->
+        <div class="customers-container">
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reiciendis maiores blanditiis consequuntur autem veniam.</p>
+                <h2>Yasin Arafat</h2>
+                <img src="rev1.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reiciendis maiores blanditiis consequuntur autem veniam.</p>
+                <h2>faith</h2>
+                <img src="rev2.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reiciendis maiores blanditiis consequuntur autem veniam.</p>
+                <h2>subhanrio</h2>
+                <img src="rev3.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente reiciendis maiores blanditiis consequuntur autem veniam.</p>
+                <h2>fahri ismandar</h2>
+                <img src="rev4.jpg" alt="">
+            </div>
+        </div>
+     </section>
+
+     <section class="last" id="review">
+        <div class="heading">
+            <h2>They Are Happy Member</h2>
+        </div>
+        <div class="last-container">
+            <div class="box">
+                <img src="rev1.jpg" alt="">
+                <h3>budi</h3>
+                <p>Teacher</p>
+                <div class="content">
+                    <span>Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</span>
+                </div>  
+            </div>
+             <div class="box">
+                <img src="rev2.jpg" alt="">
+                <h3>jono</h3>
+                <p>CEO</p>
+                <div class="content">
+                    <span>Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</span>
+                </div>
+            </div>
+            <div class="box">
+                <img src="rev4.jpg" alt="">
+                <h3>indra</h3>
+                <p>desginer</p>
+                <div class="content">
+                    <span>Lorem ipsum dolor sit amet consecasatetur. Natoque sed dui odio urna lectus enim feugiat justo.</span>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#trainer">Trainer</a></li>
+                    <li><a href="#trainer">Program</a></li>
+                    <li><a href="#about">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Fathir R.A Lette</span></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
